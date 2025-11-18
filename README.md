@@ -242,19 +242,19 @@ Building comprehensive AI ecosystem for indigenous Malian languages. Focus on sp
 ### References  
 
 **Sebastien DIARRA** — ML/AI Researcher  
- sebastien.diarra@gmail.com  
+ [sebastien.diarra@gmail.com](sebastien.diarra@gmail.com)  
 
 **Michael Leventhal** — Founder & President, RobotsMali  
- m.leventhal@robotsmali.org  
+ [m.leventhal@robotsmali.org](m.leventhal@robotsmali.org)  
 
  **Allahsera Auguste Tapo**- NLP Researcher, RIT <br>
- aat3261@g.rit.edu
+ [aat3261@g.rit.edu](aat3261@g.rit.edu)
 
  **Sidy Ndao** Founder & President, Dakar American University of Science and Technology <br>
-  sndao@daust.org
+  [sndao@daust.org](sndao@daust.org)
 
 **Abdoulaye Faye** - Co-Founder & CTO, CAYTU Robotics  
- afaye@caytu.com
+ [afaye@caytu.com](afaye@caytu.com)
 
 
  
