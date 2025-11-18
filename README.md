@@ -38,11 +38,12 @@ Passion for transforming real-world challenges into technological solutions. Str
 **Ecole Normal D'Enseignment Technique et Professional** | Bamako, MALI  
 *Electronic Engineering* | 2023 - 2024
 
-**Technical Baccalaureate in Electronic Engineering** | Mali  
-*Industrial Sciences and Technologies* | July-2022  
+**Technical Baccalaureate in Electronic Engineering** | Dakar, Senegal  
+*Industrial Sciences and Technologies*  | July - 2022
 
-* **First National** in Malian Technical Baccalaureate session
-* Specialization: Electronic Engineering
+
+**First National** in Malian Technical Baccalaureate session <br>
+**Specialization**: Electronic Engineering
 
 ---
 
