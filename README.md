@@ -35,12 +35,11 @@ Passion for transforming real-world challenges into technological solutions. Str
 **Dakar American University of Science and Technology** | Dakar, Senegal  
 *Computer Science*  | 2024 - Present
 
-**Ecole Normal D'Enseignment Technique et Professional** | Bamako, MALI  
+**Ecole Normal D'Enseignment Technique et Professional** | Bamako, Mali  
 *Electronic Engineering* | 2023 - 2024
 
-**Technical Baccalaureate in Electronic Engineering** | Dakar, Senegal  
+**Technical Baccalaureate in Electronic Engineering** | Bamako, Mali  
 *Industrial Sciences and Technologies*  | July - 2022
-
 
 **First National** in Malian Technical Baccalaureate session <br>
 **Specialization**: Electronic Engineering
