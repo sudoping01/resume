@@ -7,6 +7,22 @@
 
 # SEYDOU DIALLO
 
+**Software Developer | AI/NLP Enthusiast | Linux Administrator | Community Builder**
+
+- Address: Somone, Senegal  
+- Email: [mail.seydou.diallo@gmail.com](mailto:mail.seydou.diallo@gmail.com)   
+- GitHub: [sudoping01](https://github.com/sudoping01)  
+- HuggingFace: [sudoping01](https://huggingface.co/sudoping01)
+- LinkedIn: [seydou diallo](https://www.linkedin.com/in/seydou-diallo-08ab311ba/)
+
+</td>
+</tr>
+</table>
+
+---
+
+# SEYDOU DIALLO
+
 **Software Developer | AI/NLP Enthousiast | Linux Administrator | Community Builder**
 
 - Adress: Somone, Senegal  
