@@ -39,9 +39,10 @@ Passion for transforming real-world challenges into technological solutions. Str
 *Electronic Engineering* | 2023 - 2024
 
 **Technical Baccalaureate in Electronic Engineering** | Mali  
-*Industrial Sciences and Technologies* | July 2022  
-- **First National** in Malian Technical Baccalaureate session
-- Specialization: Electronic Engineering
+*Industrial Sciences and Technologies* | July-2022  
+
+* **First National** in Malian Technical Baccalaureate session
+* Specialization: Electronic Engineering
 
 ---
 
