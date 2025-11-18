@@ -5,14 +5,17 @@
     </td>
     <td valign="top">
 
-# SEYDOU DIALLO
-**Software Developer | AI/NLP Enthusiast | Linux Administrator | Community Builder**
+      <h1>SEYDOU DIALLO</h1>
 
-- **Address:** Somone, Senegal  
-- **Email:** [mail.seydou.diallo@gmail.com](mailto:mail.seydou.diallo@gmail.com)  
-- **GitHub:** [sudoping01](https://github.com/sudoping01)  
-- **HuggingFace:** [sudoping01](https://huggingface.co/sudoping01)  
-- **LinkedIn:** [seydou diallo](https://www.linkedin.com/in/seydou-diallo-08ab311ba/)
+      <strong>Software Developer | AI/NLP Enthusiast | Linux Administrator | Community Builder</strong>
+
+      <ul>
+        <li><strong>Address:</strong> Somone, Senegal</li>
+        <li><strong>Email:</strong> <a href="mailto:mail.seydou.diallo@gmail.com">mail.seydou.diallo@gmail.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/sudoping01">sudoping01</a></li>
+        <li><strong>HuggingFace:</strong> <a href="https://huggingface.co/sudoping01">sudoping01</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seydou-diallo-08ab311ba/">seydou diallo</a></li>
+      </ul>
 
     </td>
   </tr>
