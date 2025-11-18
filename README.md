@@ -1,22 +1,21 @@
-<table style="width: 100%; border: none;">
-<tr>
-<td style="width: 200px; vertical-align: top; border: none;">
-<img src="profile.jpeg" alt="Seydou DIALLO" width="180" style="border-radius: 50%; border: 3px solid #2c3e50;">
-</td>
-<td style="vertical-align: top; padding-left: 30px; border: none;">
+<table>
+  <tr>
+    <td width="200" valign="top">
+      <img src="profile.jpeg" alt="Seydou DIALLO" width="180">
+    </td>
+    <td valign="top">
 
 # SEYDOU DIALLO
-
 **Software Developer | AI/NLP Enthusiast | Linux Administrator | Community Builder**
 
-- Address: Somone, Senegal  
-- Email: [mail.seydou.diallo@gmail.com](mailto:mail.seydou.diallo@gmail.com)   
-- GitHub: [sudoping01](https://github.com/sudoping01)  
-- HuggingFace: [sudoping01](https://huggingface.co/sudoping01)
-- LinkedIn: [seydou diallo](https://www.linkedin.com/in/seydou-diallo-08ab311ba/)
+- **Address:** Somone, Senegal  
+- **Email:** [mail.seydou.diallo@gmail.com](mailto:mail.seydou.diallo@gmail.com)  
+- **GitHub:** [sudoping01](https://github.com/sudoping01)  
+- **HuggingFace:** [sudoping01](https://huggingface.co/sudoping01)  
+- **LinkedIn:** [seydou diallo](https://www.linkedin.com/in/seydou-diallo-08ab311ba/)
 
-</td>
-</tr>
+    </td>
+  </tr>
 </table>
 
 
