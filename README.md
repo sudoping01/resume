@@ -4,11 +4,8 @@
       <img src="profile.jpeg" alt="Seydou DIALLO" width="180">
     </td>
     <td valign="top">
-
       <h1>SEYDOU DIALLO</h1>
-
       <strong>Software Developer | AI/NLP Enthusiast | Linux Administrator | Community Builder</strong>
-
       <ul>
         <li><strong>Address:</strong> Somone, Senegal</li>
         <li><strong>Email:</strong> <a href="mailto:mail.seydou.diallo@gmail.com">mail.seydou.diallo@gmail.com</a></li>
@@ -16,7 +13,6 @@
         <li><strong>HuggingFace:</strong> <a href="https://huggingface.co/sudoping01">sudoping01</a></li>
         <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seydou-diallo-08ab311ba/">seydou diallo</a></li>
       </ul>
-
     </td>
   </tr>
 </table>
@@ -26,7 +22,7 @@
 
 ## PROFILE
 
-Passion for transforming real-world challenges into technological solutions. Strong background in software development, with ongoing work in Artificial Intelligence for social impact. Committed to innovation, entrepreneurship, and building communities that use technology for progress and inclusion. Founder of MALIBA-AI and co-founder of DJELIA, initiatives creating AI systems for African languages and real-world accessibility.
+Software developer and AI/NLP researcher building speech and language technology for African languages across the full stack - ASR, TTS, machine translation, and large language models. Founder of MALIBA-AI and co-founder of DJELIA, where I ship production AI systems and developer tools that reach millions of speakers. Published researcher in low-resource language technology and an active open-source contributor, driven by digital inclusion and entrepreneurship.
 
 ---
 
@@ -46,30 +42,57 @@ Passion for transforming real-world challenges into technological solutions. Str
 
 ---
 
+## PUBLICATIONS
+
+**BambaraMLLM: A Unified Multilingual Multimodal Large Language Model for Comprehensive Bambara Language Processing**  
+*Seydou Diallo, Allahsera Auguste Tapo, Kevin Assogba, Christopher Homan* - **First author**  
+- Unified multimodal model covering ASR, machine translation, text generation, and TTS for Bambara in a single framework
+- Built a linguistically informed instruction-data framework injecting Bambara morphology, syntax, and cultural context to generate 2M+ conversational instruction examples
+- [Paper](https://openreview.net/pdf?id=XQXAxrIz9k)
+
+**Where Are We At with Automatic Speech Recognition for the Bambara Language?**  
+*Seydou Diallo, Yacouba Diarra, Mamadou K. Keita, Panga Azazia Kamaté, Adam Bouno Kampo, Aboubacar Ouattara* - **First author**  
+- Introduced the first standardized ASR benchmark for Bambara, built on professionally recorded Malian constitutional text with manual segmentation, alignment, and quality review
+- Evaluated 37 systems and released a public leaderboard for transparent Bambara speech-technology evaluation
+- arXiv: [2602.09785](https://arxiv.org/abs/2602.09785)
+
+**InstructLR: A Scalable Approach to Create Instruction Dataset for Under-Resourced Languages**  
+*Mamadou K. Keita, Sebastien Diarra, Christopher Homan, Seydou Diallo* - Co-author  
+- Framework combining LLM generation, RAG-based correction, and human-in-the-loop validation to build high-quality instruction datasets for low-resource languages
+- Produced the 50k-scale BambaraInstruct, ZarmaInstruct, and FulfuldeInstruct benchmarks
+- arXiv: [2512.02213](https://arxiv.org/abs/2512.02213)
+
+**GAIFE: Generative AI for Education** (NAACL 2025 Findings) - Co-author  
+- Human-in-the-loop workflow using LLMs, machine translation, and linguistic tools to produce culturally grounded children's reading materials in Bambara, a low-resource language
+- Built a learning library of 174 illustrated books (~4,000 pages, 850+ original images), multiplying Bambara children's content online roughly tenfold
+- Pilot reading programs achieved a 67% reduction in children unable to read Bambara
+- [Paper](https://aclanthology.org/2025.findings-naacl.442/) | [Library](https://bloomlibrary.org/RobotsMali)
+
+---
+
 ## PROFESSIONAL EXPERIENCE
 
 ### Co-Founder | [DJELIA](https://djelia.cloud)  
 *2024 – Present*  
-- Leading the full AI model lifecycle from data collection and preparation to training, evaluation, and deployment.  
-- Developing and maintaining production-grade **ASR**, **TTS**, and **MT**, **LLM** models for the Bambara language.  
-- Building **developer SDKs and APIs** that allow seamless integration of Djelia’s language technologies into third-party applications.  
-- Driving accessibility and innovation by making AI services available to millions of Bambara speakers and local developers.  
+- Own the full AI model lifecycle for Bambara - data collection, training, evaluation, and deployment
+- Built and maintain production-grade ASR, TTS, MT, and LLM models serving millions of Bambara speakers
+- Shipped developer SDKs and APIs that let third-party applications integrate Djelia's language technologies in minutes
+- Turned research-stage language models into reliable, accessible cloud services for local developers
 
 
 ### Founder | [MALIBA-AI Community](https://maliba-ai.org)  
 *2025 – Present*  
-- Leading AI research and development efforts for indigenous Malian languages, from data collection to final model.  
-- Developing and maintaining **ASR**, **TTS**,**LLM** and **MT** models for Malian languages.  
-- Building **inference SDKs** and **serving servers** to enable developers and communities to easily integrate MALIBA-AI models into their products and solutions.  
-- Driving a community-led initiative to democratize AI access across education, healthcare, agriculture, and local businesses.  
-- Promoting digital inclusion by creating **speech-first interfaces** for primarily oral languages.  
+- Founded and lead a community-driven AI initiative for indigenous Malian languages, owning research from data collection to final model
+- Built and maintain ASR, TTS, LLM, and MT models across multiple Malian languages
+- Released inference SDKs and serving infrastructure so developers and communities can integrate MALIBA-AI models directly
+- Designed speech-first interfaces for primarily oral languages, expanding AI access in education, healthcare, agriculture, and local business
 
 
 ### Software Developer & AI Engineer | [Caytu Robotics](https://caytu.ai)  
 *2024 – Present*  
-- Developing and maintaining a scalable **IoT ecosystem** for remote control and real-time video streaming and data monitoring.  
-- Building **multi-modal AI applications**, powering **Caytu Avatar**, enabling natural language interaction with any rest api include Caytu IoT Ecosystem.  
-- Creating tools and SDKs to allow seamless integration of AI services, automation workflows, and personal assistant features.  
+- Built and maintain a scalable IoT ecosystem for remote control, real-time video streaming, and data monitoring
+- Developed Caytu Avatar, a multimodal AI agent enabling natural-language interaction with any REST API, including the Caytu IoT ecosystem
+- Created tools and SDKs for integrating AI services, automation workflows, and assistant features
 
 
 
@@ -113,24 +136,24 @@ Passion for transforming real-world challenges into technological solutions. Str
 
 ### GAIFE: Generative AI for Education  
 *Co-Author | Bill & Melinda Gates Foundation Grand Challenges | RobotsMali*
-- Developed methodology using generative AI and automatic translation for children's educational materials
-- Produced books and pedagogical content in Bambara, Mali's most widely spoken language
-- [Libraire](https://bloomlibrary.org/RobotsMali)
-- [paper](https://aclanthology.org/2025.findings-naacl.442/)
+- Co-developed a novel methodology combining generative AI and automatic translation to produce educational content at scale for Bambara, a low-resource language
+- Co-author on the resulting peer-reviewed paper (NAACL 2025 Findings)
+- Applied the methodology to build a library of 174 published illustrated books, contributing Bambara linguistic review for accuracy, fluency, and cultural relevance
+- [Paper](https://aclanthology.org/2025.findings-naacl.442/) | [Library](https://bloomlibrary.org/RobotsMali)
 
 ### Bayelemabaga: Bambara Machine Translation
-*Data Processing | RobotsMali | RIT Partnershis*
-- First-ever machine translation model for Bambara-French language pairs
-- Involved in data extraction, cleaning, and alignment of parallel corpora
+*Data Processing | RobotsMali | RIT Partnership*
+- Contributed to the first machine translation model for the Bambara–French language pair
+- Handled extraction, cleaning, and alignment of the parallel corpora behind the model
 - [Project Details](https://www.rit.edu/lpi/research)
 - [Dataset](https://huggingface.co/datasets/RobotsMaliAI/bayelemabaga)
 
 ### Automatic Speech Recognition Systems
 
 **Wolof ASR Models** | Lead Developer | CAYTU ROBOTICS
-- Developed **whosper-large-v2** and **whosper-large** - most accurate open-source Wolof ASR models
-- Achieved excellent performance in multilingual scenarios (Wolof, French, English) with 
-- Latest version (whosper-large-v2): **24% WER** and **11% CER** on 9-hour evaluation dataset
+- Built the most accurate open-source Wolof ASR models, **whosper-large-v2** and **whosper-large**
+- Delivered strong multilingual performance across Wolof, French, and English
+- whosper-large-v2 reached **24% WER** and **11% CER** on a 9-hour evaluation set
 - **3,893 downloads** (whosper-large-v2) and **679 downloads** (whosper-large) in first week
 - Models:  [whosper-large-v2](https://huggingface.co/CAYTU/whosper-large-v2) | [whosper-large](https://huggingface.co/CAYTU/whosper-large)
 
@@ -163,9 +186,9 @@ Passion for transforming real-world challenges into technological solutions. Str
 ### Software Development Kits (SDKs)
 
 **NabooPay Payment Gateway SDKs** | *Lead Developer & Maintainer*
-- Python SDK: Built comprehensive SDK for Senegalese mobile money payments (Wave, Orange Money, Free Money)
-- Node.js SDK: TypeScript-based SDK with full type definitions and automatic retry mechanisms
-- Features: Transaction management, cashout operations, both synchronous and asynchronous support
+- Python SDK for Senegalese mobile money payments (Wave, Orange Money, Free Money)
+- Node.js SDK in TypeScript with full type definitions and automatic retry logic
+- Transaction management and cashout operations, with both sync and async support
 - Code Source: [Python SDK](https://github.com/naboopay/naboopay-python-sdk) | [Node.js SDK](https://github.com/naboopay/naboopay-nodejs-sdk)
 
 **Djelia AI Language Platform SDKs** | *Lead Developer & Maintainer*
@@ -190,14 +213,14 @@ Passion for transforming real-world challenges into technological solutions. Str
 - Code source: [GitHub](https://github.com/sudoping01/aws-kvs-webrtc-stream) | [Docker Hub](https://hub.docker.com/r/sudoping01/aws-kvs-webrtc-stream)
 
 ### Wolof TTS Inference Server  
-- Deployment solution for first Wolof speech synthesis system
-- Democratizes voice technology for Senegal's primary language
+- Deployment solution for the first Wolof speech synthesis system
+- Brings voice technology to Senegal's primary language
 - Code Source: [GitHub Repository](https://github.com/sudoping01/wolof-tts)
 
 ### Adia_TTS Segmentation Algorithm  
-- Transformed research model into production-ready system
-- Overcame character limitations while preserving voice quality
-- Integrated into official model documentation
+- Turned a research model into a production-ready system
+- Removed character-length limits while preserving voice quality
+- Merged into the official model documentation
 - Code Source: [GitHub](https://github.com/sudoping01/adia-inference-server) | [HuggingFace Discussion](https://huggingface.co/CONCREE/Adia_TTS/discussions/3#67d94d89fbc8ceeb878ba261)
 
 **Additional projects:** [GitHub Profile](https://github.com/sudoping01)
@@ -234,7 +257,7 @@ Passion for transforming real-world challenges into technological solutions. Str
 ## COMMUNITY LEADERSHIP
 
 **MALIBA-AI** - Founder & Lead  
-Building comprehensive AI ecosystem for indigenous Malian languages. Focus on speech first technology, accessibility solutions, and democratizing AI benefits across education, healthcare, and business sectors.
+Building an AI ecosystem for indigenous Malian languages, centered on speech-first technology and accessibility, with applications across education, healthcare, and business.
 
 [Introduction to MALIBA-AI](https://github.com/MALIBA-AI/blogs/blob/main/introduction_to_maliba_ai.md) | [Hugging Face Community](https://huggingface.co/MALIBA-AI) | [Github](https://github.com/orgs/djelia-org/dashboard)
 
@@ -242,10 +265,10 @@ Building comprehensive AI ecosystem for indigenous Malian languages. Focus on sp
 
 ### References  
 
-**Sebastien DIARRA** — ML/AI Researcher  
+**Sebastien DIARRA** - ML/AI Researcher  
  [sebastien.diarra@gmail.com](sebastien.diarra@gmail.com)  
 
-**Michael Leventhal** — Founder & President, RobotsMali  
+**Michael Leventhal** - Founder & President, RobotsMali  
  [m.leventhal@robotsmali.org](m.leventhal@robotsmali.org)  
 
  **Allahsera Auguste Tapo**- NLP Researcher, RIT <br>
@@ -256,8 +279,3 @@ Building comprehensive AI ecosystem for indigenous Malian languages. Focus on sp
 
 **Abdoulaye Faye** - Co-Founder & CTO, CAYTU Robotics  
  [afaye@caytu.com](afaye@caytu.com)
-
-
- 
-
-
