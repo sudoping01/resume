@@ -22,7 +22,7 @@
 
 ## PROFILE
 
-Software developer and AI/NLP researcher building speech and language technology for African languages across the full stack - ASR, TTS, machine translation, and large language models. Founder of MALIBA-AI and co-founder of DJELIA, where I ship production AI systems and developer tools that reach millions of speakers. Published researcher in low-resource language technology and an active open-source contributor, driven by digital inclusion and entrepreneurship.
+Software developer and AI/NLP researcher building speech and language technology for African languages - ASR, TTS, machine translation, and LLMs. Founder of MALIBA-AI and co-founder of DJELIA, where I take models from data collection through production deployment. First-author work on Bambara language technology published at peer-reviewed venues, with open-source models released on Hugging Face and developer SDKs in production.
 
 ---
 
@@ -75,9 +75,9 @@ Software developer and AI/NLP researcher building speech and language technology
 ### Co-Founder | [DJELIA](https://djelia.cloud)  
 *2024 – Present*  
 - Own the full AI model lifecycle for Bambara - data collection, training, evaluation, and deployment
-- Built and maintain production-grade ASR, TTS, MT, and LLM models serving millions of Bambara speakers
-- Shipped developer SDKs and APIs that let third-party applications integrate Djelia's language technologies in minutes
-- Turned research-stage language models into reliable, accessible cloud services for local developers
+- Built and maintain production-grade ASR, TTS, MT, and LLM models for Bambara, served via cloud APIs
+- Shipped Python and JavaScript SDKs so third-party applications can integrate Djelia's language models
+- Turned research-stage language models into reliable, documented services for local developers
 
 
 ### Founder | [MALIBA-AI Community](https://maliba-ai.org)  
@@ -110,21 +110,18 @@ Software developer and AI/NLP researcher building speech and language technology
 
 **MALIBA-LLM** | Lead Developer | MALIBA-AI
 
-* Built **MALIBA-LLM**, a fine-tuned version of google/gemma-3n-E2B-it and the **first open-source Large Language Model for Bambara (Bamanankan)**
-* Supports **Bambara ↔ French/English** code-switching for technical terms, instruction following, conversational reasoning, knowledge retrieval, content generation, translation, mathematical reasoning, coding support, logical problem-solving, and Mali-specific knowledge
-* Achieved **0.4952 validation loss**, ↓93.4% from initial 7.4595
-* Designed for **education, translation, conversational AI, content generation, and accessibility** for 15M+ speakers in West Africa, as part of the MALIBA-AI project
-* Model: [maliba-llm](https://huggingface.co/sudoping01/maliba-llm)
+* Built **MALIBA-LLM**, the first open-source large language model for Bambara (Bamanankan), fine-tuned from google/gemma-3n-E2B-it
+* Supports Bambara ↔ French/English code-switching, instruction following, translation, and Mali-specific knowledge
+* Reduced validation loss to **0.4952** (93.4% lower than the 7.4595 starting point)
+* Released on Hugging Face for education, translation, and conversational use: [maliba-llm](https://huggingface.co/sudoping01/maliba-llm)
 
 ### Speech Synthesis 
 
 **Bambara Text-to-Speech** | Lead Developer | MALIBA-AI
 
-- Open-source, high-quality TTS system for Bambara with **4.2/5.0** subjective quality score
-- Achieved **4.1/5.0** naturalness ratings with 10 authentic Bambara speakers
-- Addresses digital exclusion crisis affecting 15+ million non-literate adults in sub-Saharan Africa
-- Released via Hugging Face: [MALIBA-AI/bambara-tts](https://huggingface.co/MALIBA-AI/bambara-tts) 
-- **8,712 downloads** on Hugging Face *(all-time, as of October 2025)*
+- Open-source Bambara TTS system rated **4.2/5.0** for quality and **4.1/5.0** for naturalness by 10 native Bambara speakers
+- Targets the digital exclusion affecting millions of non-literate adults in sub-Saharan Africa
+- Released on Hugging Face - **8,712 downloads** as of October 2025: [MALIBA-AI/bambara-tts](https://huggingface.co/MALIBA-AI/bambara-tts)
 
 **MALIBA-TTS: Multilingual Speech Synthesis for Malian Languages** | *Lead Contributor*  
 - Developed **text-to-speech (TTS) models** for six Malian languages: **Bambara, Boomu, Dogon, Pular, Songhoy, and Tamasheq**  
@@ -151,31 +148,31 @@ Software developer and AI/NLP researcher building speech and language technology
 ### Automatic Speech Recognition Systems
 
 **Wolof ASR Models** | Lead Developer | CAYTU ROBOTICS
-- Built the most accurate open-source Wolof ASR models, **whosper-large-v2** and **whosper-large**
-- Delivered strong multilingual performance across Wolof, French, and English
+- Built **whosper-large-v2** and **whosper-large**, open-source Wolof ASR models
+- Handle multilingual input across Wolof, French, and English
 - whosper-large-v2 reached **24% WER** and **11% CER** on a 9-hour evaluation set
 - **3,893 downloads** (whosper-large-v2) and **679 downloads** (whosper-large) in first week
 - Models:  [whosper-large-v2](https://huggingface.co/CAYTU/whosper-large-v2) | [whosper-large](https://huggingface.co/CAYTU/whosper-large)
 
 **Bambara ASR Models** | Lead Developer | MALIBA-AI
-- Created **maliba-asr** series - outperforming all existing open-source Bambara ASR
-- Latest version (maliba-asr-v2): **24.33% WER** and **12.45% CER** on 3-hour evaluation dataset
-- Excels in code-switching scenarios between Bambara and English
+- Built the **maliba-asr** series for Bambara ASR
+- maliba-asr-v2 reached **24.33% WER** and **12.45% CER** on a 3-hour evaluation set
+- Handles Bambara–English code-switching
 - Latest Model : [bambara-asr-v1](https://huggingface.co/MALIBA-AI/bambara-asr-v1)
 
 **Songhay ASR Model** | | Lead Developer | MALIBA-AI
-- Built **songhay-asr-v1** - first ASR model for Songhay language
-- Achieved **16.58% WER** and **4.63% CER** on test dataset
-- Supports bilingual Songhay-French transcription
+- Built **songhay-asr-v1**, an ASR model for the Songhay language
+- Reached **16.58% WER** and **4.63% CER** on the test set
+- Supports bilingual Songhay–French transcription
 - Model: [songhoy-asr-v1](https://huggingface.co/sudoping01/songhoy-asr-v1-ic)
 
 
 
 ### IoT Assistant in Local Languages  
 *Lead Developer | Caytu Robotics*
-- Built world's first IoT assistant operating fully in Wolof
-- Designed scalable IoT ecosystem with remote control and real-time streaming
-- Features workflow automation and multilingual support
+- Built an IoT assistant operating fully in Wolof
+- Designed a scalable IoT ecosystem with remote control and real-time streaming
+- Added workflow automation and multilingual support
 - [Platform: caytu.link](https://caytu.link/)
 - Open-sourced architecture at Ndabax Senegal 2024
 
@@ -213,8 +210,8 @@ Software developer and AI/NLP researcher building speech and language technology
 - Code source: [GitHub](https://github.com/sudoping01/aws-kvs-webrtc-stream) | [Docker Hub](https://hub.docker.com/r/sudoping01/aws-kvs-webrtc-stream)
 
 ### Wolof TTS Inference Server  
-- Deployment solution for the first Wolof speech synthesis system
-- Brings voice technology to Senegal's primary language
+- Deployment server for a Wolof speech synthesis system
+- Makes voice technology available for Wolof, a primary language of Senegal
 - Code Source: [GitHub Repository](https://github.com/sudoping01/wolof-tts)
 
 ### Adia_TTS Segmentation Algorithm  
