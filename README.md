@@ -367,8 +367,8 @@ I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor
       <div class="timeline-text">
         <b>Caytu CLI</b> <span class="timeline-meta">Lead Developer @ Caytu Robotics (internal)</span>
         <ul>
-          <li>Single command-line tool managing the full lifecycle of a Caytu device across IoT and robotics fleets: enrollment, provisioning, deployment, remote access, and day-to-day operations. 
-          <li>Designed the device credential security model. 
+          <li>Single command-line tool managing the full lifecycle of a Caytu device across IoT and robotics fleets: enrollment, provisioning, deployment, remote access, and day-to-day operations.</li>
+          <li>Designed the device credential security model.</li>
           <li>Ships as a standalone compiled binary published per architecture (amd64 and arm64) as signed <code>.deb</code> packages to a GPG-signed APT repository on S3, installable in one command and upgradable with plain <code>apt</code>.</li>
         </ul>
       </div>
@@ -602,7 +602,7 @@ Some things don't fit in a paper or a model card, so I write them down instead. 
 
 **JAYAS Drone** Co-Founder. A drone-as-a-service platform, building ready-to-fly drones and the service infrastructure around them.
 
----
+
 
 # References
 
