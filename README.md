@@ -159,7 +159,7 @@
   </div>
 </div>
 
-I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor. I enjoy building systems that solve real-world problems, contributing to developer tools, and advancing machine learning, speech recognition, and natural language technologies for underrepresented and low-resource languages through accessible, open-source technology.
+I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor. My work runs from applied AI R&D (training, fine-tuning, and serving models at scale and on-premise) to the DevOps and MLOps that put them in production. I enjoy building systems that solve real-world problems, contributing to developer tools, and advancing machine learning, speech recognition, and natural language technologies for underrepresented and low-resource languages through accessible, open-source technology.
 
 ---
 
@@ -190,7 +190,7 @@ I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor
     <div class="timeline-content">
       <div class="timeline-logo"><img src="./assets/djelia.png" alt="DJELIA"></div>
       <div class="timeline-text">
-        <b>Co-Founder</b> @ <a href="https://djelia.cloud">DJELIA</a>
+        <b>Co-Founder &amp; Head of AI Development</b> @ <a href="https://djelia.cloud">DJELIA</a>
         <ul>
           <li>Own the full AI model lifecycle for Bambara data collection, training, evaluation, and deployment.</li>
           <li>Built and maintain production-grade ASR, TTS, MT, and LLM models for Bambara, served via cloud APIs.</li>
@@ -209,11 +209,11 @@ I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor
       <div class="timeline-text">
         <b>Software Developer &amp; AI Engineer</b> @ <a href="https://caytu.ai">Caytu Robotics</a>
         <ul>
-          <li>Built and maintain a scalable IoT ecosystem for remote control, real-time video streaming, and data monitoring.</li>
-          <li>Developed <b>Caytu Avatar</b>, a multimodal AI agent enabling natural-language interaction with any REST API, including the Caytu IoT ecosystem.</li>
-          <li>Built and maintain <b>Caytu CLI</b>, the tool that provisions, deploys, and operates every device in the IoT and robotics fleet, including its on-device credential encryption and signed binary release pipeline.</li>
-          <li>Built <b>Caytu-Nav</b>, an LLM-driven autonomous navigation agent for the robotics platform.</li>
-          <li>Created tools and SDKs for integrating AI services, automation workflows, and assistant features.</li>
+          <li><b>IoT infrastructure</b>: design and maintain the Caytu IoT ecosystem, a fleet of containerized services for remote device control, telemetry, and automation over <b>MQTT</b> and <b>AWS IoT Core</b>, plus a <b>WebRTC / Amazon KVS</b> video streaming platform and a protocol-bridge layer for third-party hardware (<b>DLMS</b>, <b>Ajax</b>, <b>HikVision AX</b>, <b>Victron</b>, <b>Zigbee</b>).</li>
+          <li><b>Device security &amp; licensing</b>: encrypted on-device credential store and <b>fail-closed license enforcement</b>, injected at build time and compiled into each service binary.</li>
+          <li><b>Fleet tooling</b>: <b>Caytu CLI</b> for automatic device <b>enrollment</b>, <b>provisioning</b>, deployment, and operations, distributed as per-architecture signed binaries through a <b>GPG-signed APT repository</b> and public <b>ECR</b> / <b>S3</b> image and template channels.</li>
+          <li><b>Agent framework</b>: <b>Caytu Avatar</b>, a config-driven framework that lets any service stand up its own agent operating across its APIs, exposing <b>REST / OpenAPI</b> and <b>MCP</b> tools through a semantic tool selector on a provider-agnostic LLM backend.</li>
+          <li><b>Robotics &amp; Physical AI</b>: contribute to the <b>ROS 2</b> robot stack (robot-controller, robot-stream) and build <b>Caytu-Nav</b>, an <b>LLM-driven autonomous navigation</b> agent for unknown, dynamic environments.</li>
         </ul>
       </div>
     </div>
@@ -344,16 +344,49 @@ I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-year">IoT</div>
+    <div class="timeline-year">Speech<br>Platform</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="timeline-logo"><img src="./assets/djelia.png" alt="DJELIA"></div>
+      <div class="timeline-text">
+        <b>Djelia: Production Speech &amp; Language Platform</b> <span class="timeline-meta">Head of AI Development @ Djelia</span>
+        <ul>
+          <li><b>Data lifecycle</b>: own the pipeline end to end, from raw <b>data collection</b> through <b>preprocessing</b>, <b>augmentation</b>, and dataset preparation.</li>
+          <li><b>Model training</b>: build the <b>training pipelines</b> and train Djelia's production <b>ASR</b> and <b>TTS</b> models for Bambara.</li>
+          <li><b>Serving</b>: deliver the inference servers that host the trained models, integrated with the production infrastructure behind Djelia's cloud APIs.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">IoT<br>Infra</div>
     <div class="timeline-dot"></div>
     <div class="timeline-content">
       <div class="timeline-logo"><img src="./assets/caytu.png" alt="Caytu Robotics"></div>
       <div class="timeline-text">
-        <b>IoT Assistant in Local Languages</b> <span class="timeline-meta"> Lead Developer @ Caytu Robotics</span>
+        <b>Caytu IoT Controller &amp; Streaming Platform</b> <span class="timeline-meta"> Lead Developer @ Caytu Robotics</span>
         <ul>
-          <li>Built an IoT assistant operating fully in Wolof, on a scalable ecosystem with remote control and real-time streaming.</li>
-          <li>Added workflow automation and multilingual support; open-sourced the architecture at Ndabax Senegal 2024.</li>
+          <li><b>IoT infrastructure</b> for remote device control, telemetry, and automation: a fleet of containerized services communicating over <b>MQTT</b> and <b>AWS IoT Core</b>, orchestrated per device from a single configuration.</li>
+          <li><b>Video streaming platform</b> (caytu-iot-stream) delivering low-latency <b>WebRTC / Amazon KVS</b> streams for remote monitoring, and a <b>protocol-bridge layer</b> integrating third-party hardware: <b>DLMS</b> smart meters, <b>Ajax</b> and <b>HikVision AX</b> alarm panels, <b>Victron</b> energy systems, and <b>Zigbee</b> devices.</li>
+          <li>Hardened the runtime with an encrypted on-device credential store and <b>fail-closed license enforcement</b> compiled into each service binary.</li>
           <li>Platform: <a href="https://caytu.link/">caytu.link</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">AI<br>Agent</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="timeline-logo"><img src="./assets/caytu.png" alt="Caytu Robotics"></div>
+      <div class="timeline-text">
+        <b>Caytu Avatar: Config-Driven Agent Framework</b> <span class="timeline-meta">Lead Developer @ Caytu Robotics</span>
+        <ul>
+          <li>An <b>agent framework</b> that lets any service stand up its own agent operating across that service's own APIs, so a new integration is added by <b>configuration</b> alone.</li>
+          <li>Turns <b>REST / OpenAPI</b> endpoints and <b>MCP</b> servers into callable tools, selected at runtime by an <b>LLM-enriched semantic tool selector</b> that scales to arbitrary tool sets.</li>
+          <li>Provider-agnostic LLM backend, <b>RAG</b> over documents (vector search), speech-to-text and text-to-speech, and concurrent multi-service orchestration with live background context.</li>
         </ul>
       </div>
     </div>
@@ -367,23 +400,24 @@ I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor
       <div class="timeline-text">
         <b>Caytu CLI</b> <span class="timeline-meta">Lead Developer @ Caytu Robotics (internal)</span>
         <ul>
-          <li>Single command-line tool managing the full lifecycle of a Caytu device across IoT and robotics fleets: enrollment, provisioning, deployment, remote access, and day-to-day operations.</li>
-          <li>Designed the device credential security model.</li>
-          <li>Ships as a standalone compiled binary published per architecture (amd64 and arm64) as signed <code>.deb</code> packages to a GPG-signed APT repository on S3, installable in one command and upgradable with plain <code>apt</code>.</li>
+          <li>Single command-line tool for the full device lifecycle across the IoT and robotics fleets: automatic <b>enrollment</b>, <b>provisioning</b>, deployment, remote access, and operations.</li>
+          <li>Owns the <b>device security model</b>: encrypted on-device credential store and <b>license enforcement</b>, injected at build time and compiled into each service binary.</li>
+          <li>Ships as per-architecture (amd64, arm64) compiled binaries in <b>GPG-signed <code>.deb</code></b> packages on an <b>S3 APT repository</b>, installable and upgradable with plain <code>apt</code>; container images and compose templates distributed publicly via <b>ECR Public</b> and <b>S3</b>.</li>
         </ul>
       </div>
     </div>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-year">Robotics</div>
+    <div class="timeline-year">Physical<br>AI</div>
     <div class="timeline-dot"></div>
     <div class="timeline-content">
       <div class="timeline-logo"><img src="./assets/caytu.png" alt="Caytu Robotics"></div>
       <div class="timeline-text">
         <b>Caytu-Nav: LLM-Driven Autonomous Navigation</b> <span class="timeline-meta">Lead Developer @ Caytu Robotics (internal)</span>
         <ul>
-          <li>Robot navigation agent that takes a natural-language goal  and executes it autonomously on ROS 2 using camera, lidar, and odometry.</li>
+          <li><b>Physical AI</b> navigation agent on <b>ROS 2</b>: takes a natural-language goal and executes it autonomously, fusing camera, lidar, and odometry to perceive, plan, and act.</li>
+          <li>Targets autonomy in <b>unknown, dynamic environments</b>, building its own understanding of the space and adapting as it changes rather than following a pre-mapped route.</li>
         </ul>
       </div>
     </div>
@@ -407,7 +441,7 @@ Almost everything I build ships publicly. Across my own namespace and the organi
 **Language tooling**
 
 * **[Bambara ASR Leaderboard](https://huggingface.co/spaces/MALIBA-AI/bambara-asr-leaderboard)** the public evaluation leaderboard behind the Bambara ASR benchmark paper, with the [benchmark dataset](https://huggingface.co/datasets/MALIBA-AI/bambara-asr-benchmark) released alongside it ([source](https://github.com/MALIBA-AI/bambara-asr-leaderboard)).
-* **[bambara-text-normalization](https://github.com/MALIBA-AI/bambara-text-normalization)** text normalization for Bambara, the preprocessing layer under the ASR and TTS pipelines.
+* **[`bambara-text-normalizer`](https://pypi.org/project/bambara-text-normalizer/)** (PyPI) text normalization and inverse text normalization for Bambara, the preprocessing layer under the ASR and TTS pipelines. Source: [MALIBA-AI/bambara-text-normalization](https://github.com/MALIBA-AI/bambara-text-normalization).
 * **[instructions-gen](https://github.com/sudoping01/instructions-gen)** generating high-quality instruction datasets for low-resource languages from linguistic structure and reasoning, the tooling behind the instruction work in BambaraMLLM.
 * **Demos** [Malian TTS](https://huggingface.co/spaces/MALIBA-AI/MalianTTS) and [Bambara Translator](https://huggingface.co/spaces/MALIBA-AI/BambaraTranslator) Spaces.
 
@@ -417,6 +451,7 @@ Almost everything I build ships publicly. Across my own namespace and the organi
 * **[Wolof TTS Inference Server](https://github.com/sudoping01/wolof-tts)** deployment server making speech synthesis available for Wolof, a primary language of Senegal.
 * **[Adia_TTS Segmentation Algorithm](https://github.com/sudoping01/adia-inference-server)** turned a research model into a production system, removing character-length limits while preserving voice quality; [merged into the official model documentation](https://huggingface.co/CONCREE/Adia_TTS/discussions/3#67d94d89fbc8ceeb878ba261).
 * **[ONVIF IP-camera controller](https://github.com/sudoping01/onvif-ipcam-controller-python)** and **[Garmin GPS18x driver](https://github.com/sudoping01/garmin-gps18x-usb-python)** Python device-control libraries from the Caytu IoT work.
+* **[OpenConverse](https://github.com/room4-2/OpenConverse)** (contributor) an open-source real-time voice-assistant server in Go bridging web and Twilio phone calls to Google's Gemini Live API. Built the DevOps and release engineering: containerization (Docker, dev and prod compose), CI/CD for automated Docker Hub image build and publish on push and release, a Go code-quality workflow (golangci-lint), pre-commit and gitleaks secret scanning, a Makefile, and the contribution and community setup.
 
 More at my [GitHub profile](https://github.com/sudoping01) and [Hugging Face profile](https://huggingface.co/sudoping01).
 
@@ -562,7 +597,9 @@ Some things don't fit in a paper or a model card, so I write them down instead. 
   <span class="tag">Whisper</span>
   <span class="tag">Unsloth</span>
   <span class="tag">Axolotl</span>
-  <span class="tag">FastAPI</span>
+  <span class="tag">Fine-tuning</span>
+  <span class="tag">LoRA / QLoRA</span>
+  <span class="tag">Quantization</span>
 
   <span class="tag-label">NLP</span>
   <span class="tag">ASR</span>
@@ -572,18 +609,30 @@ Some things don't fit in a paper or a model card, so I write them down instead. 
   <span class="tag">VLMs</span>
   <span class="tag">VLA</span>
 
-  <span class="tag-label">Infrastructure</span>
+  <span class="tag-label">MLOps &amp; Model Serving</span>
+  <span class="tag">vLLM</span>
+  <span class="tag">llama.cpp</span>
+  <span class="tag">On-premise serving</span>
+  <span class="tag">Serving at scale</span>
+  <span class="tag">GPU inference</span>
+  <span class="tag">FastAPI</span>
+
+  <span class="tag-label">DevOps &amp; CI/CD</span>
   <span class="tag">Docker</span>
-  <span class="tag">WebRTC</span>
-  <span class="tag">IoT</span>
-  <span class="tag">AWS</span>
-  <span class="tag">GCP</span>
-  <span class="tag">Linux Administration</span>
-  <span class="tag">Git</span>
-  <span class="tag">ROS 2</span>
-  <span class="tag">MQTT</span>
+  <span class="tag">GitHub Actions</span>
+  <span class="tag">CI/CD</span>
   <span class="tag">systemd</span>
   <span class="tag">Debian packaging</span>
+  <span class="tag">Linux Administration</span>
+  <span class="tag">Git</span>
+
+  <span class="tag-label">Infrastructure &amp; Cloud</span>
+  <span class="tag">AWS</span>
+  <span class="tag">GCP</span>
+  <span class="tag">WebRTC</span>
+  <span class="tag">IoT</span>
+  <span class="tag">MQTT</span>
+  <span class="tag">ROS 2</span>
 
   <span class="tag-label">Spoken</span>
   <span class="tag">Bambara (native)</span>
