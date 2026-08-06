@@ -159,7 +159,7 @@
   </div>
 </div>
 
-I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor. My work runs from applied AI R&D (training, fine-tuning, and serving models at scale and on-premise) to the DevOps and MLOps that put them in production. I enjoy building systems that solve real-world problems, contributing to developer tools, and advancing machine learning, speech recognition, and natural language technologies for underrepresented and low-resource languages through accessible, open-source technology.
+I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor. My work spans **software engineering** and **applied AI**: I design and ship **production systems** end to end, from distributed services, infrastructure, and developer tooling and SDKs to the **DevOps and MLOps** that run them, and I lead AI R&D from training and fine-tuning to **serving models at scale and on-premise**. I enjoy building systems that solve real-world problems, contributing to developer tools, and advancing machine learning, speech recognition, and natural language technologies for underrepresented and low-resource languages through accessible, open-source technology.
 
 ---
 
