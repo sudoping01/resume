@@ -263,6 +263,41 @@ I'm Seydou DIALLO, Software Engineer, AI researcher, and open-source contributor
 <div class="timeline">
 
   <div class="timeline-item">
+    <div class="timeline-year">AI Agents</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="timeline-logo"><img src="./assets/kiosk.png" alt="Kiosk"></div>
+      <div class="timeline-text">
+        <b>Kiosk: AI Customer Support Platform</b> <span class="timeline-meta"> Creator &amp; Lead Engineer · 2026</span>
+        <ul>
+          <li>Built a white-label, multi-tenant platform where any business creates its own AI support agent with no code: it answers customers, takes orders and bookings, and hands off to a human when needed, across <b>13 business types</b> (restaurants, retail, clinics, hotels, fintech, public administration, …).</li>
+          <li>One agent across every channel: <b>WhatsApp</b> (Cloud API and QR gateway), <b>Telegram</b>, <b>email</b>, an embeddable <b>web chat</b>, <b>SMS</b> and <b>phone calls</b> via <b>Twilio</b>, plus <b>real-time voice calls</b> in the browser and by phone on <b>OpenAI Realtime</b> and <b>Gemini Live</b>.</li>
+          <li>Built for African languages: per-message <b>language detection and ASR routing</b> sends Bambara voice notes to Djelia's models and Wolof to its own engine, follows customers who switch languages, and answers in the customer's language.</li>
+          <li>Provider-agnostic LLM layer (OpenAI, Anthropic, Gemini, Groq, Mistral, OpenRouter, bring-your-own-key) with an <b>MCP</b> and <b>OpenAPI</b> tool hub, per-tenant spend caps and metered usage, a configuration copilot with voice, a two-level owner portfolio with analytics, and a platform back office.</li>
+          <li>Live platform: <a href="https://kiosk.sudoping01.space">kiosk.sudoping01.space</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Coding<br>Agents</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="timeline-logo"><img src="./assets/alchimist.png" alt="Alchimist"></div>
+      <div class="timeline-text">
+        <b>Alchimist: Coding-Agent Harness for Bambara &amp; Wolof</b> <span class="timeline-meta"> Creator &amp; Lead Engineer · 2026</span>
+        <ul>
+          <li>AI coding agents let anyone who speaks English or French build software just by describing it. Alchimist is a <b>harness</b> that gives the same advantage to people who speak only <b>Bambara</b> or <b>Wolof</b>: a farmer in Sikasso can talk to the agent and get a working app, a website, a document, a Docker service, an email sent, or a model trained.</li>
+          <li>The person interacts with the agent <b>entirely by voice</b>, through voice messages or <b>real-time calls</b>, and the agent answers out loud in their language, explaining what it did. The harness wraps the agent without limiting it: the full toolset stays available, and it is <b>model-agnostic</b>, so it works with any underlying model.</li>
+          <li>Voice-first dashboard for people who may not read or type: tap and speak, share files, and see what the agent built in a live <b>preview panel</b> (web apps, PDFs, office documents, media, code).</li>
+          <li>Platform: <a href="https://code.sudoping01.space">code.sudoping01.space</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
     <div class="timeline-year">LLMs</div>
     <div class="timeline-dot"></div>
     <div class="timeline-content">
